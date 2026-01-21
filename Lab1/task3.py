@@ -14,5 +14,10 @@ for i in li:
         min = i
     if i >= max:
         max = i
-print("Sum: ", sum)
-print()
+print(f"Sum: {sum}")
+print(f"Min: {min}")
+print(f"Max: {max}")
+index = int(input(f"Enter index to update(0 - {num - 1}): "))
+val = int(input(f"Enter updated value: "))
+li[index] = val
+print(li)
